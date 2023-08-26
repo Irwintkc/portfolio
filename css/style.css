@@ -558,6 +558,12 @@ p {
   transition: 0.9s;
 }
 
+.blur-effect a img,
+.blur-effect a img {
+  filter: blur(3px);
+  -webkit-filter: blur(3px);
+}
+
 .fh5co-grid .fh5co-col-1 .fh5co-item a:hover img,
 .fh5co-grid .fh5co-col-2 .fh5co-item a:hover img {
   -webkit-transform: scale(1);
